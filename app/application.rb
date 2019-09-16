@@ -18,8 +18,6 @@ class Application
         @@cart.each do |item|
         resp.write "#{item}\n"
       end
-      unless cart.empty?
-      "Your cart is empty"
     else
       resp.write "Path Not Found"
     end
